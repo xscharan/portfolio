@@ -1,0 +1,76 @@
+index.html
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - CH.V SAI CHARAN</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CH.V SAI CHARAN</h1>
+        <p>Software Developer | Technical Troubleshooter</p>
+    </header>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Results-driven professional with a Bachelor's in Engineering and expertise in web development, programming, and troubleshooting.</p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Java, C, C++, Python, SQL</li>
+            <li>HTML, CSS, JavaScript, HTTP</li>
+            <li>API Development & Troubleshooting</li>
+            <li>Software Development & Debugging</li>
+        </ul>
+    </section>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Portfolio Website</strong> - Designed and deployed a responsive personal site.</li>
+            <li><strong>To-Do List App</strong> - Built a cloud-based app with Firebase integration.</li>
+            <li><strong>Resume Screening Tool</strong> - NLP-based tool to parse resumes and rank profiles.</li>
+        </ul>
+    </section>
+    <footer>
+        <p>Contact: scharan162002@gmail.com</p>
+    </footer>
+</body>
+</html>
+```
+
+style.css
+```css
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+```
